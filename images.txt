@@ -1,6 +1,8 @@
---platform=linux/arm64/v8 nginx:mainline-perl
---platform=linux/arm64/v8 mysql:oraclelinux9
---platform=linux/arm64/v8 redis:latest
+#--platform=linux/arm64/v8 nginx:mainline-perl
+#--platform=linux/arm64/v8 mysql:oraclelinux9
+#--platform=linux/arm64/v8 redis:latest
+--platform=linux/arm64 nacos/nacos-server:v2.4.3-slim
+
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
